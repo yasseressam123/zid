@@ -1,0 +1,136 @@
+.storeProp{
+    background-color: rgba(250, 250, 252, 0.93);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 63px 53px;
+    margin-bottom: 160px;
+}
+.storeProp-prop{
+    text-align: end;
+    flex: 0 0 50%;
+}
+.storeProp-img{
+    flex: 0 0 50%;
+    position: relative;
+}
+.storeProp-img .storeProp-image-img{
+    width: 100%;
+    object-fit: scale-down;
+}
+.storeProp-prop-main{
+    color: #8D5DA7;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 21px !important;
+}
+.storeProp-prop-sub1{
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 9px !important;
+}
+.storeProp-prop-sub2{
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 20px !important;
+}
+.storeProp-prop-card{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.storeProp-prop-card div{
+    height: 51px;
+    width: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+.storeProp-prop-card p{
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    margin-right: 20px;
+}
+.storeProp-btn button{
+    background: #8D5DA7;
+    border-radius: 10px;
+    color: #FDB515;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    padding: 15px 4vw;
+}
+.storeProp-image-ellipse{
+    position: absolute;
+    z-index: 1;
+    right: -11%;
+    bottom: -23%;
+}
+.storeProp-image-dot{
+    position: absolute;
+    z-index: 1;
+    left: -4%;
+    top: -7%;
+}
+.storeProp-image-img{
+    z-index: 100;
+    position: relative;
+}
+@media only screen and (max-width: 1400px) {
+    .storeProp-image-ellipse{
+        width: 22vw;
+    }
+    .storeProp-image-dot{
+        width: 13vw;
+    }
+    .storeProp-prop-main{
+        font-size: 20px;
+    }
+    .storeProp-prop-sub1,
+    .storeProp-prop-sub2{
+        font-size: 14px;
+    }
+    .storeProp-prop-card p{
+        font-size: 12px;
+    }
+    .storeProp-btn button{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .storeProp{
+        margin-bottom: 120px;
+    }
+    .storeProp-prop-main{
+        font-size: 17px;
+    }
+    .storeProp-prop-sub1, .storeProp-prop-sub2{
+        font-size: 12px;
+    }
+    .storeProp-prop-card p{
+        font-size: 10px;
+    }
+    .storeProp-btn button{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .speacial-apps-body{
+        justify-content: center;
+    }
+    .speacial-apps-body-card{
+        flex: 0 0 70% !important;
+        padding: 30px 30px !important;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .speacial-apps-body-card{
+        flex: 0 0 85% !important;
+    }
+}
